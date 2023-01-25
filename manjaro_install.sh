@@ -5,7 +5,7 @@
 sudo pacman -Syu
 
 # installing applications from pacman
-sudo pacman -S spotify-launcher discord brave-browser git make docker sqlitebrowser
+sudo pacman -S spotify-launcher discord brave-browser git make docker docker-compose sqlitebrowser vim
 
 # YAY
 cd /tmp/
