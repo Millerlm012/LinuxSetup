@@ -5,7 +5,7 @@
 sudo pacman -Syu
 
 # installing applications from pacman
-sudo pacman -S spotify-launcher discord brave-browser git make docker docker-compose sqlitebrowser vim
+sudo pacman -S spotify-launcher discord brave-browser git make patch docker docker-compose sqlitebrowser vim caffeine-ng nvm qopenvpn python-pip
 
 # YAY
 cd /tmp/
@@ -18,7 +18,7 @@ makepkg -si
 yay -syu
 
 # VSCODIUM
-yay -S vscodium-bin
+yay -S vscodium-bin --noconfirm
 
 # DOCKER
 # https://linuxways.net/manjaro/how-to-install-docker-on-manjaro-linux/
@@ -26,3 +26,18 @@ sudo systemctl start docker.service
 sudo systemctl enable docker.service
 # ability to run docker without root
 sudo usermod -aG docker $USER
+
+# NODE/NPM
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+exec $SHELL
+nvm install 16.14
+
+# SLACK
+yay -S slack-desktop --noconfirm
+
+# PROSPECT MAIL (outlook for linux)
+wget https://github.com/julian-alarcon/prospect-mail/releases/download/v0.4.0/prospect-mail-0.3.0.pacman
+sudo pacman -U prospect-mail-0.3.0.pacman
+
+# REBOOT is necessary after completing all of the following
+sudo reboot
