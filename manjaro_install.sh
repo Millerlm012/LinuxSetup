@@ -37,7 +37,7 @@ nvm alias default v16.14
 yay -S slack-desktop --noconfirm
 
 # PROSPECT MAIL (outlook for linux)
-wget https://github.com/julian-alarcon/prospect-mail/releases/download/v0.4.0/prospect-mail-0.3.0.pacman
+wget https://github.com/julian-alarcon/prospect-mail/releases/download/v0.3.0/prospect-mail-0.3.0.pacman
 sudo pacman -U prospect-mail-0.3.0.pacman
 
 # REBOOT is necessary after completing all of the following
