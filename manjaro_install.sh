@@ -40,5 +40,8 @@ yay -S slack-desktop --noconfirm
 wget https://github.com/julian-alarcon/prospect-mail/releases/download/v0.3.0/prospect-mail-0.3.0.pacman
 sudo pacman -U prospect-mail-0.3.0.pacman
 
+# REMMINA REMOTE DESKTOP
+yay -S remina-git --noconfirm
+
 # REBOOT is necessary after completing all of the following
 sudo reboot
