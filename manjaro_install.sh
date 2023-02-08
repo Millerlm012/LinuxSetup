@@ -31,6 +31,7 @@ sudo usermod -aG docker $USER
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
 exec $SHELL
 nvm install 16.14
+nvm alias default v16.14
 
 # SLACK
 yay -S slack-desktop --noconfirm
