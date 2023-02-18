@@ -15,7 +15,7 @@ cd yay-git
 makepkg -si
 
 # updating yay and packages after install
-yay -syu
+yay -Syu
 
 # VSCODIUM
 yay -S vscodium-bin --noconfirm
