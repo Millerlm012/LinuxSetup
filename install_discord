@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# download file from website
-sudo tar -xvzf /home/lmiller/Downloads/discord-0.0.55.tar.gz -C /opt
-# remove file from downloads
-sudo ln -sf /opt/Discord/Discord /usr/bin/Discord
